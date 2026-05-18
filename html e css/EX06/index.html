@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+<p>Vamos aprender a reproduzir áudios em HTML5</p>
+<audio src="" controls autoplay></audio> <!--vai carregar o áudio normalmente--> <!--autoplay é auto esplicativo-->
+<!-- Para criar um parâmetro para abrir os áudios em 100% dos dispositivos apague o "src" e mantenha somente o audio em seguida coloque o source-->
+ <audio preload="metadata" autoplay controls>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!--Para mp3 no type digite: audio/mpeg-->
+<source src="midia/guanacast-33.ogg" type="audio/ogg"> <!-- source src para o ogg-->
+<source src="midia/guanacast-33.wav" type="audio/wav">
+ </audio>
+
+
+</body>
+</html>
