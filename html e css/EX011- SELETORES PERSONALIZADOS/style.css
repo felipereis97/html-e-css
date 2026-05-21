@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+em HTML é id = em CSS é # (é único)
+em HTML é class = em CSS é .(pode usar à vontade)
+OBS.: se quiser algum trecho do texto com alguma formatação em class ou id envelope com a tag span e dentro dela digite a classe desejada
+OBS2.: podemos utilizar o id e o class juntos, mas as configurações do id sobrepõem a da class
+*/
+
+
+
+body {
+    background-color: #88F2CD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: #437865;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(2, 138, 2);
+    color: white;
+}
+
+h2 {
+    color: #589C84;
+}
+
+.basico {
+color: rgb(0, 228, 0);
+font-weight: bold;
+
+}
+
+.intermediario {
+color: rgb(253, 253, 77);
+}
+
+.avançado {
+color: rgb(247, 32, 32);
+}
+
+.destaque {
+    background-color: rgba(172, 255, 47, 0.842);
+}
